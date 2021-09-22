@@ -188,7 +188,7 @@ footer{
 }
 
 .section .project-h1{
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -198,4 +198,14 @@ footer{
 
 .padding_none .container{
     border-radius: 1rem;
+}
+
+.align-center{
+   text-align: center;
+}
+
+/** **/
+
+.pad{
+    padding-top: 60px;
 }
