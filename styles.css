@@ -30,9 +30,7 @@ body {
 /** links **/
 .link{
     text-decoration: none;
-    padding: 0.4rem 0.4rem 0.4rem 0.4rem ;
-
-    
+    padding: 0.4rem 0.4rem 0.4rem 0.4rem ;  
 }
 
 .primary-link{
@@ -95,18 +93,17 @@ body {
 
 .hero{
     padding: 2rem;
-    padding-top: 5rem;
+    padding-top: 0rem;
 }
 
 .hero .hero-img{
-    max-width: 50%;
-    height: auto;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
 
 .hero .hero-heading{
-    padding-top: 1rem;
+    padding-top: 3rem;
     color:var(--grey-color) ;
     text-align: center;
 }
@@ -156,4 +153,49 @@ footer{
 
 .center{
     text-align: center;
+}
+
+/** Mobile Responsive **/
+@media screen and (max-width: 600px) {
+    .hero-img{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .hero .hero-img{
+       max-width: 40%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .hero .hero-img{
+       max-width: 40%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero .hero-img{
+       max-width: 350px;
+    }
+}
+
+/** project page **/
+
+.project-h1{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.section .project-h1{
+    text-align: left;
+}
+
+
+.padding_none{
+    padding-inline-start: 0px;
+}
+
+.padding_none .container{
+    border-radius: 1rem;
 }
